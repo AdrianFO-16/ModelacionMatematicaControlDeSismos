@@ -1,0 +1,517 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#banner{
+    background: linear-gradient(rgba(255, 255, 255, 1),#FFF), url(Barber_Shop_img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo{
+    width: 140px;
+    position: absolute;
+    top: 4%;
+    left: 4%;
+}
+
+.banner-text{
+    text-align: center;
+    color: #003098;
+    padding-top: 250px;
+}
+
+.banner-text h1{
+    font-size: 100px;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.banner-text p{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.banner-btn{
+    margin: 70px auto 0;
+}
+
+.banner-btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: #FFF;
+    border: .5px solid #FFF;
+    position: relative;
+    z-index: 1;
+    transition: color 0.5s;
+}
+
+.banner-btn a span{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #FFF;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.banner-btn a:hover span{
+    width: 100%;
+}
+
+.banner-btn a:hover{
+    color: black;
+}
+
+#sideNav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: #003098;
+    z-index: 2;
+    transition: 0.5s;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+#menuBtn{
+    width: 50px;
+    height: 50px;
+    background: #003098;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+#menuBtn img{
+    width: 20px;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 770px){
+    .banner-text h1{
+        font-size: 44px;
+    }
+    .banner-btn a{
+        display: block;
+        margin: 20px auto;
+    }
+}
+
+/*--Sin Control--*/
+
+#SinControl{
+    width: 100%;
+    padding: 70px 0;
+    background-color: #5677c0;
+}
+
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.title-text h1{
+    font-size: 50px;
+    color: #FFF;
+}
+
+.feature-box{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.features{
+    flex-basis: 50%;
+}
+
+.features-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+
+.features-img img{
+    width: 90%;
+    border: 3px solid #000;
+    background-color: #FFF;
+}
+
+.features-video{
+    flex-basis: 50%;
+    margin: auto;
+}
+
+.features-video video{
+    width: 100%;
+    border: 3px solid #000;
+    border-radius: 10px;
+}
+
+.features p{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 200;
+    color: #FFF;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 770px){
+    .title-text h1{
+        font-size: 35px;
+    }
+
+    .features{
+        flex-basis: 100%;
+    }
+
+    .features-img{
+        flex-basis: 100%;
+    }
+
+    .features-img img{
+        width: 100%;
+    }
+}
+
+/*--ActuadoresH--*/
+
+#ActuadoresH{
+    width: 100%;
+    padding: 70px 0;
+    background: #FFF;
+}
+
+.title-textalt{
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.title-textalt h1{
+    font-size: 50px;
+    color: #000;
+}
+
+.feature-boxalt{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.featuresalt{
+    flex-basis: 50%;
+}
+
+.features-imgalt{
+    flex-basis: 50%;
+    margin: auto;
+}
+
+.features-imgalt img{
+    width: 90%;
+    border: 3px solid #000;
+    background-color: #FFF;
+}
+
+.features-videoalt{
+    flex-basis: 50%;
+    margin: auto;
+}
+
+.features-videoalt video{
+    width: 100%;
+    border: 3px solid #000;
+    border-radius: 10px;
+}
+
+.featuresalt p{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 200;
+    color: #000;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 770px){
+    .title-text h1{
+        font-size: 35px;
+    }
+
+    .features{
+        flex-basis: 100%;
+    }
+
+    .features-img{
+        flex-basis: 100%;
+    }
+
+    .features-img img{
+        width: 100%;
+    }
+}
+
+/*--Amortiguamiento Activo--*/
+
+#MasaAmor{
+    width: 100%;
+    padding: 70px 0;
+    background-color: #5677c0;
+}
+
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.title-text h1{
+    font-size: 50px;
+    color: #FFF;
+}
+
+.feature-box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.features{
+    flex-basis: 50%;
+}
+
+.features-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+
+.features-img img{
+    width: 90%;
+    border: 3px solid #000;
+    background-color: #FFF;
+}
+
+.features-video{
+    flex-basis: 50%;
+    margin: auto;
+}
+
+.features-video video{
+    width: 100%;
+    border: 3px solid #000;
+    border-radius: 10px;
+}
+
+.features p{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 200;
+    color: #FFF;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 770px){
+    .title-text h1{
+        font-size: 35px;
+    }
+
+    .features{
+        flex-basis: 100%;
+    }
+
+    .features-img{
+        flex-basis: 100%;
+    }
+
+    .features-img img{
+        width: 100%;
+    }
+}
+
+/*--Hidra Amort--*/
+
+#ActMasa{
+    width: 100%;
+    padding: 70px 0;
+    background: #FFF;
+}
+
+.title-textalt{
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.title-textalt h1{
+    font-size: 50px;
+    color: #000;
+}
+
+.feature-boxalt{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.featuresalt{
+    flex-basis: 50%;
+}
+
+.features-imgalt2{
+    flex-basis: 50%;
+    margin: auto;
+}
+
+.features-imgalt2 img{
+    width: 48%;
+    border: 3px solid #000;
+    background-color: #FFF;
+}
+
+.features-videoalt{
+    flex-basis: 50%;
+    margin: auto;
+}
+
+.features-videoalt video{
+    width: 100%;
+    border: 3px solid #000;
+    border-radius: 10px;
+}
+
+.featuresalt p{
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 200;
+    color: #000;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 770px){
+    .title-text h1{
+        font-size: 35px;
+    }
+
+    .features{
+        flex-basis: 100%;
+    }
+
+    .features-img{
+        flex-basis: 100%;
+    }
+
+    .features-img img{
+        width: 100%;
+    }
+}
+
+/*--Footer--*/
+
+#Footer{
+    padding: 100px 0 20px;
+    background: #23448d;
+    position: relative;
+}
+
+.footer-row{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left, .footer-right{
+    flex-basis: 45%;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: #FFF;
+}
+
+.footer-right{
+    text-align: right;
+}
+
+.footer-row h1{
+    margin: 10px 0;
+}
+
+.footer-row p{
+    line-height: 35px;
+}
+
+.footer-left .fa-solid, .footer-right .fa-solid{
+    font-size: 20px;
+    color: #aabbdf;
+    margin: 10px;
+}
+
+.social-links{
+    text-align: center;
+}
+
+.social-links .fa-brands{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid #FFF;
+    margin: 40px 5px 0;
+    color: #FFF;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.social-links .fa-brands:hover{
+    background-color: #aabbdf;
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.social-links p{
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 770px){
+    .footer-left, .footer-right{
+        flex-basis: 100%;
+        font-size: 14px;
+    }
+    
+    .footer-img{
+        top: 25%;
+    }
+}
