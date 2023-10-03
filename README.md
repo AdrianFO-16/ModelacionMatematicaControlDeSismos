@@ -15,4 +15,4 @@ Se modeló matemáticamente el desplazamiento lateral de edificios con múltiple
 
 <a href="https://drive.google.com/drive/folders/1xlmUVo03crHmguR0dhqxHtzx9yCDZwHR?usp=sharing" target="_blank">Carpeta de Google Drive</a>
 
-<a href="https://adrianfo-16.github.io/ModelacionMatematicaControlDeSismos/control.html" target="_blank">Página de Simulaciones</a>
+<a href="https://adrianfo-16.github.io/ModelacionMatematicaControlDeSismos" target="_blank">Página de Simulaciones</a>
